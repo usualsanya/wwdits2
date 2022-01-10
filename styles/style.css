@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "my font";
+    src: url("../assets/Cambridge.otf");
+}
+
+@font-face {
+  font-family: "my font2";
+  src: url("../assets/BOMBFONT_TRIAL.otf");
+}
+
+  
+  .image2 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+  }
+
+  .image2 img{
+    width: 1000px;
+  }
+
+  
+
+  .director {
+    position: relative;
+    margin-left: 100px;
+  }
+  
+  .director img {
+    width: 1500px;
+  }
+
+  .director:hover {
+    filter: blur(5px);
+  }
+
+  .image2 {
+    animation: 2s linear 2s normal none infinite running rot;
+    -webkit-animation: 2s linear 2s normal none infinite running rot;
+    width: -12px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+h1 {
+    inline-size: 700px; 
+    
+  overflow: hidden;
+    position: absolute;
+    top	: 00px;
+    color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 961%;
+    text-align: left;
+    margin: 40px;
+    
+}
+
+h1:hover {
+  color: rgb(51, 255, 0);
+}
+
+h2 {
+    color:rgb(187, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1261%;
+    text-align: right;
+    filter: blur(5px);
+    
+}
+
+
+p {color: rgb(255, 0, 0);
+    font-family: "my font2";
+    font-size: 191%;
+    text-align: left;
+    margin: 0px;
+
+}
+
+
+
+body{
+    background-image: url("/Users/aleksandramacokina/OneDrive/css poster/assets/Без имени-1 копия.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.image{
+  
+    position: relative;
+}
+.image img {
+    width: 1500px;
+}
+
+
+.smile{
+    
+    text-align: center;
+    transform: rotate(353deg);
+}
+.smile img {
+    width: 753px;
+}
+
+.image3 {
+    transform: rotate(218deg);  
+    width: 270px;
+    box-shadow: 0px 0px 20px red;
+}
+
+.image3 {
+  animation: 2s linear 2s normal none infinite running rot;
+  -webkit-animation: 2s linear 2s normal none infinite running rot;
+  width: -12px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.image4 {
+
+    float: right;
+    transform: rotate(303deg);  
+    width: 270px;
+    
+}
+
+
+
+.gallery {
+    display: flex;
+    margin: 30px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    
+}
+
+.item {
+  font-family: sans-serif;
+}
+
+.item:hover {
+  text-shadow: 1px 1px 8px rgb(47, 0, 255);
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 961%;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .image4 {
+    text-shadow: rgb(255, 238, 0) 0px 0px 10px;
+    transition: all 0.2s;
+}
+
+.bottom {
+  position: relative;
+}
+.bottom img {
+  width: 1200px;
+}
+
